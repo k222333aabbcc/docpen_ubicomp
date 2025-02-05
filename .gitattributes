@@ -1,0 +1,2 @@
+weights/work_weights.pth filter=lfs diff=lfs merge=lfs -text
+data/test_set.pkl filter=lfs diff=lfs merge=lfs -text
