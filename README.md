@@ -12,7 +12,7 @@ This project is used to test and evaluate the performance of the DocPen model. T
 - `weights/`: The folder containing the model weights.
 - `data/`: The folder containing the test dataset.
 - `utils/`: Auxiliary tools and functions.
-- `SA_ConvLSTM_Pytorch/`: Implementation of ConvLstm, modified from [SA-ConvLSTM-Pytorch](https://github.com/tsugumi-sys/SA-ConvLSTM-Pytorch.git) .
+- `SA_ConvLSTM_Pytorch/`: Implementation of ConvLstm, adjusted from [SA-ConvLSTM-Pytorch](https://github.com/tsugumi-sys/SA-ConvLSTM-Pytorch.git) .
 
 ## Dataset
 
