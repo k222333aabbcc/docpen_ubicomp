@@ -410,15 +410,6 @@ def start_run(params):
 
     model = model.cuda()
     
-    # with torch.no_grad():
-    #     model.eval()
-    #     x = torch.rand(2048, 3, 200, 11).cuda()
-    #     d = torch.rand(2048, 2, 200, 2).cuda()
-    #     h = torch.rand(2048, 2).cuda()
-    #     output1, output2, output3 = model(x)
-    #     losses = loss_function(output1, output2, output3, d, h)
-    #     input(';')
-    
     optimizer = optim.Adam(model.parameters(), lr=lr)
     
     epochs = params['epochs']
@@ -459,7 +450,7 @@ def start_run(params):
 
 def run_one(name):
     params = {
-        'project': 'WPP_ub',
+        'project': 'docpen',
         'name': name,
         'id': 1,
         'base_dir': './outputs/' + name + '/',
